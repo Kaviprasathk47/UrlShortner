@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import apiRoute from "./routes/apiRoute.js";
 import route from "./routes/route.js";
 import { getBaseUrl } from "./utils/config.js";
+import "./db.js";
 
 dotenv.config();
 
